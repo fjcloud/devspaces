@@ -14,7 +14,7 @@ base_dir=$(cd "$(dirname "$0")"; pwd)
 
 REGISTRY="quay.io"
 ORGANIZATION="devspaces"
-TAG="next"
+TAG="latest"
 DOCKERFILE="./build/dockerfiles/Dockerfile"
 SKIP_OCI_IMAGE="false"
 NODE_BUILD_OPTIONS="${NODE_BUILD_OPTIONS:-}"
